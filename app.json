@@ -60,7 +60,9 @@
       "minifyEnabled": false
     },
     "web": {
-      "favicon": "./assets/icon-custom.png"
+      "favicon": "./assets/icon-custom.png",
+      "output": "static",
+      "bundler": "metro"
     },
     "extra": {
       "eas": {
