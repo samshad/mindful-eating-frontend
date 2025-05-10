@@ -31,6 +31,3 @@ coverage/
 *.iml
 .idea/
 
-# Android Studio and IntelliJ IDEA related files
-*.apk
-*.aab
