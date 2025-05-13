@@ -1,4 +1,4 @@
-# Mindful Eating Frontend
+# Mindful Eating Frontend🧘‍♀️🍲
 
 ![License](https://img.shields.io/github/license/samshad/mindful-eating-frontend)
 ![React Native](https://img.shields.io/badge/React%20Native-0.76.6-blue)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-The **Mindful Eating Frontend** is a React Native application built with **Expo** that pairs with the Mindful Eating Backend to deliver a personalized mindful-eating experience. Users can:
+The **Mindful Eating Frontend** is a React Native application built with **Expo** that pairs with the [Mindful Eating Backend](https://github.com/samshad/mindful-eating-backend) to deliver a personalized mindful-eating experience. Users can:
 
 - **Register** and **login** securely.
 - Complete a **Big Five** personality questionnaire.
@@ -86,12 +86,15 @@ mindful-eating-frontend/
    yarn install
    ```
 
-3. **Configure environment**  
-   Update the utils/config.js file with backend URL:
-   ```
-   const BASE_URL=https://your-backend-url.com
-   ```
+3. **Configure environment**
+   Create or update the `utils/config.js` file with your backend API URL.
+   It should look something like this:
 
+    ```javascript
+   // utils/config.js
+   export const BASE_URL = 'https://your-backend-api-url.com/api/v1'; // Replace with your actual backend URL
+   // Add other global configurations here if needed
+    ```
 ## Running the App
 
 Launch the Expo development server:
@@ -119,6 +122,16 @@ npx expo start -c
 3. Commit changes: `git commit -m "Add my feature"`
 4. Push branch: `git push origin feature/my-feature`
 5. Open a Pull Request and describe your changes.
+
+## Acknowledgements
+
+This project was undertaken as a research project for my Master of Applied Computer Science program at Persuasive Computing Lab, Dalhousie University.
+
+**Supervisors:** Dr. Rita Orji & Dr. Oladapo Oyebode
+
+## Companion Backend Service
+This frontend application communicates with the **Mindful Eating Backend** for data persistence, AI-powered tip generation, and business logic.
+- **Backend Repository:** [samshad/mindful-eating-backend](https://github.com/samshad/mindful-eating-backend)
 
 ## License
 
